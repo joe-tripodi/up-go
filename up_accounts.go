@@ -2,6 +2,7 @@ package upgo
 
 import (
 	"encoding/json"
+	"fmt"
 	"log"
 )
 
@@ -51,6 +52,11 @@ func (up *UpClient) GetAccounts() ([]Account, error) {
 	return accountResponse.Data, nil
 }
 
-func (accounts Account) Print() error {
+func (account Account) Print() error {
+	fmt.Printf("  %s\n", account.Attributes.DisplayName)
+	fmt.Printf("    Type: %s\n", account.Attributes.AccountType)
+	fmt.Printf("    Ownership Type: %s\n", account.Attributes.OwnershipType)
+	fmt.Printf("    Balance: %c$%s\n", account.Attributes.Balance.CurrencyCode[0], account.Attributes.Balance.Value)
+	fmt.Println()
 	return nil
 }
