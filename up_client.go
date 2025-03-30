@@ -1,4 +1,4 @@
-package upclient
+package goup
 
 import (
 	"bytes"
