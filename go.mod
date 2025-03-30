@@ -1,3 +1,3 @@
-module github.com/joetripodi/up-money
+module github.com/joetripodi/up-go
 
 go 1.24.0
