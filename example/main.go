@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/joetripodi/up-go"
+	"github.com/joe-tripodi/up-go"
 )
 
 func main() {
