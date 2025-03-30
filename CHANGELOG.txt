@@ -1,3 +1,4 @@
 Sun 30 March 2025:
   - Created
   - Changed directory layout, it is now defined in the root dir
+  - Rename package to upgo to match folder name

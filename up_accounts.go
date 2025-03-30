@@ -1,4 +1,4 @@
-package goup
+package upgo
 
 import (
 	"encoding/json"
