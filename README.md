@@ -13,3 +13,6 @@ Set the ENV variable: UP_ACCESS_TOKEN with the access token you have generated f
 ```
 export UP_ACCESS_TOKEN=up:yeah:blahblahblah
 ```
+
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
